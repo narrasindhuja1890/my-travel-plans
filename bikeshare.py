@@ -32,7 +32,7 @@ def get_filters():
             continue
             break
       day='all'
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)  
+    # TO DO: get user input for day of week (M to S or all)  
     elif user_input=="day":
       day = input('\nWhich day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?\n').lower()
       month='all'  
